@@ -15,15 +15,14 @@ class Devesh extends Developer {
     String[] skills = {"Java", "C++", "C", "Problem Solving"};
     String currentFocus = "Building scalable applications";
     String superpower = "Turning coffee into code";
-    
-    void dailyRoutine() {
-        while(alive) {
+(()=>{
+ while(alive) {
             eat();
             sleep();
             code();
             repeat();
         }
-    }
+})()
 }
 ```
 
